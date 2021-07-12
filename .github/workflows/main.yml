@@ -28,7 +28,7 @@ jobs:
           echo test, and deploy your project.
           
   TheOneThatDoesThings:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Lets see whats in our working directory
